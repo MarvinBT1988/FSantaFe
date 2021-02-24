@@ -53,5 +53,13 @@
       <Name>FSantaFe.Facturacion.EntidadesDeNegocio</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Documentos\ActualizacionDB.sql" />
+    <Content Include="Documentos\GenerarDB_IniciarDatos.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentos\DiagramaBD.pdf" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
