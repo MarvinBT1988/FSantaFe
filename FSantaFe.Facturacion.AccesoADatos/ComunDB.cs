@@ -10,7 +10,7 @@ namespace FSantaFe.Facturacion.AccesoADatos
 {
  public class ComunDB
  {
-  const string StrConexion = @"";
+  const string StrConexion = @""; // Ingresar el script de conexion aqui
   private static SqlConnection ObtenerConexion() 
   {
    SqlConnection connection = new SqlConnection(StrConexion);
