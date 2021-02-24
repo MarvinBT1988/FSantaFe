@@ -10,7 +10,7 @@ namespace FSantaFe.Facturacion.AccesoADatos
 {
  public class ComunDB
  {
-  const string StrConexion = @"Data Source=198.38.83.200;Initial Catalog=eliqsv_facturacion;Persist Security Info=True;User ID=eliqsv_estudiante2021;Password=xd9ofzqcvbwrtselgmhy";
+  const string StrConexion = @"";
   private static SqlConnection ObtenerConexion() 
   {
    SqlConnection connection = new SqlConnection(StrConexion);
